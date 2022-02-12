@@ -9,7 +9,7 @@ var firebaseConfig = {
   };
   
   // Initialize Firebase
-fiebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 function adduser() {
     user_name = document.getElementById("user_name").value;
 
